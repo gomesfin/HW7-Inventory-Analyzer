@@ -1,4 +1,6 @@
-# Concept
+# Inventory Analyzer Function: 
+
+## Concept
 
 The function 'analyzeInventory' performs the following operations on an inventory object:
 
@@ -6,7 +8,7 @@ The function 'analyzeInventory' performs the following operations on an inventor
 2. Find the most popular item (the one with the highest stock quantity).
 3. Find the least popular item (the one with the lowest stock quantity).
 
-# Data Structures
+## Data Structures
 
 1. Inventory Data Structure:
 
@@ -38,7 +40,7 @@ Operations to be Performed
 3. Find the Least Popular Item:
 - Identify the item with the lowest quantity.
 
-# How to run the function 
+## How to run the function 
 
 Syntax: 
 
@@ -58,7 +60,7 @@ An object with the following properties:
 'leastPopularItem' (object): The item object with the lowest quantity.
 
 
-# Exaple usage:
+## Exaple usage:
 
 ```
 const inventory = [
@@ -85,7 +87,7 @@ Least Popular Item: { id: 4, name: 'Dates', quantity: 5 }
 ```
 
 
-# Function code followed by description of key elements:
+## Function code followed by description of key elements:
 
 ``` 
 function analyzeInventory(inventory) {
@@ -138,7 +140,7 @@ console.log('Least Popular Item:', analysis.leastPopularItem);
 - 'leastPopularItem': We track the item with the lowest quantity similarly.
 
 
-# Additional notes:
+## Additional notes:
 
 - The function assumes that the inventory array is not empty. 
 
